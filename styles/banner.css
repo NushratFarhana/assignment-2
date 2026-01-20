@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background-color: #0b001a;
+}
+
+/* Navbar */
+.navbar {
+    height: 80px;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #14002b, #1d003f);
+}
+
+/* Logo */
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.logo .wave {
+    color: #ff2fd0;
+}
+
+/* Nav links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #dcdcdc;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+}
+
+/* Subscribe button */
+.subscribe-btn {
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, #ffb347, #ff2fd0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 47, 208, 0.4);
+}
